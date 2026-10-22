@@ -1,0 +1,23 @@
+Algoritmo Incremento_Salarial()
+//declaracion de variables
+    Definir salario Como Real
+    Definir anio Como Entero
+//control de variables
+    salario = 1500
+    anio = 1
+
+    Escribir "Salario inicial: $", salario
+
+    Mientras anio <= 6 Hacer
+
+        salario = salario * 1.10
+
+        Escribir "Salario del anio ", anio, ": $", salario
+
+        anio = anio + 1
+
+    FinMientras
+
+    Escribir "Salario final despues de 6 anios: $", salario
+
+FinAlgoritmo
